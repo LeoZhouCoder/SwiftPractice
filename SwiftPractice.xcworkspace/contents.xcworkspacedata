@@ -1,4 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:UINavigationController/UINavigationController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MultiPages/MultiPages.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIPageControl/UIPageControl.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIScrollView/UIScrollView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UISearchController/UISearchController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UICollectionView/UICollectionView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UITableView/UITableView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIStepper/UIStepper.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UISlider/UISlider.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIProgressView/UIProgressView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UISegmentedControl/UISegmentedControl.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UISwitc/UISwitc.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PickerInUITextField/PickerInUITextField.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIPickerView/UIPickerView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIDatePicker/UIDatePicker.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AutoPlayImage/AutoPlayImage.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIImageView/UIImageView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIAlertController/UIAlertController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIButton/UIButton.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UITextView/UITextView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UITextField/UITextField.xcodeproj">
+   </FileRef>
 </Workspace>
