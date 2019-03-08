@@ -51,14 +51,11 @@ extension ViewController: UISearchResultsUpdating {
         // 使用陣列的 filter() 方法篩選資料
         self.searchArr = self.cities.filter(
             { (city) -> Bool in
-                // 將文字轉成 String 型別
-                let cityText:String = city
-                
-                // 比對這筆資訊有沒有包含要搜尋的文字
-                return (cityText.rangeOfString(
-                    searchText, options:
-                    NSString.CompareOptions.CaseInsensitiveSearch).location)
-                    != NSNotFound
+                let result = city.range(of: searchText)
+                if result == nil {
+                    return false
+                }
+                return !(result!.isEmpty)
         })
     }
 }
