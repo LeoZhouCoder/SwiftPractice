@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 建立一個 UIWindow
         self.window = UIWindow(frame:UIScreen.main.bounds)
         
+        // test
+        
         // 設置底色
         self.window!.backgroundColor = UIColor.white
         
