@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  UINavigationController
 //
-//  Created by 周晓磊 on 2019/3/8.
+//  Created by Leo Zhou on 2019/3/8.
 //  Copyright © 2019 LeoZhou. All rights reserved.
 //
 
@@ -20,13 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 建立一個 UIWindow
         self.window = UIWindow(frame:UIScreen.main.bounds)
         
-        // test
-        
         // 設置底色
         self.window!.backgroundColor = UIColor.white
         
         // 設置根視圖控制器
-        self.window!.rootViewController = ViewController();
+        self.window!.rootViewController = UINavigationController(rootViewController: ViewController());
         
         // 將 UIWindow 設置為可見的
         self.window!.makeKeyAndVisible()

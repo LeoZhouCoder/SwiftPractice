@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  UINavigationController
 //
-//  Created by 周晓磊 on 2019/3/8.
+//  Created by Leo Zhou on 2019/3/8.
 //  Copyright © 2019 LeoZhou. All rights reserved.
 //
 
@@ -14,15 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // 底色
         self.view.backgroundColor = UIColor.darkGray
-        
-        // 導覽列標題
         self.title = "首頁"
-        // 導覽列底色
-        self.navigationController?.navigationBar.barTintColor = UIColor.lightGray
-        // 導覽列是否半透明
-        self.navigationController?.navigationBar.isTranslucent = false
+        self.navigationController!.navigationBar.barTintColor = UIColor.lightGray
+        self.navigationController!.navigationBar.isTranslucent = false
         
         // 導覽列左邊按鈕
         let leftButton = UIBarButtonItem(
@@ -30,7 +25,6 @@ class ViewController: UIViewController {
             style:.plain ,
             target:self ,
             action: #selector(ViewController.check))
-        // 加到導覽列中
         self.navigationItem.leftBarButtonItem = leftButton
         
         // 導覽列右邊按鈕
@@ -39,7 +33,6 @@ class ViewController: UIViewController {
             style:.plain,
             target:self,
             action:#selector(ViewController.setting))
-        // 加到導覽列中
         self.navigationItem.rightBarButtonItem = rightButton
         
         // 建立一個按鈕

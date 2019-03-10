@@ -2,7 +2,7 @@
 //  SettingViewController.swift
 //  UINavigationController
 //
-//  Created by 周晓磊 on 2019/3/9.
+//  Created by Leo Zhou on 2019/3/9.
 //  Copyright © 2019 LeoZhou. All rights reserved.
 //
 
@@ -37,7 +37,7 @@ class SettingViewController: UIViewController {
         
         // 建立一個按鈕
         let myButton = UIButton(frame: CGRect(
-            x: 100, y: 250, width: 120, height: 40))
+            x: 100, y: 0, width: 120, height: 40))
         myButton.setTitle("回前頁", for: .normal)
         myButton.backgroundColor = UIColor.blue
         myButton.addTarget(

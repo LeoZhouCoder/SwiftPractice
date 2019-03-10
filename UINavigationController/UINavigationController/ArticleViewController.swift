@@ -2,7 +2,7 @@
 //  ArticleViewController.swift
 //  UINavigationController
 //
-//  Created by 周晓磊 on 2019/3/9.
+//  Created by Leo Zhou on 2019/3/9.
 //  Copyright © 2019 LeoZhou. All rights reserved.
 //
 
@@ -37,8 +37,8 @@ class ArticleViewController: UIViewController {
         
         // 建立一個按鈕
         let myButton = UIButton(frame: CGRect(
-            x: 100, y: 100, width: 120, height: 40))
-        myButton.setTitle("回前頁", for: .normal)
+            x: 100, y: 0, width: 120, height: 40))
+        myButton.setTitle("回前頁aaa", for: .normal)
         myButton.backgroundColor = UIColor.blue
         myButton.addTarget(
             self,

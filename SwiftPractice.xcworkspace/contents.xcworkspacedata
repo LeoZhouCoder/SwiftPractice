@@ -2,6 +2,27 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Swift.gitignore">
+   </FileRef>
+   <FileRef
+      location = "group:SQLite/SQLite.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSUserDefaults/NSUserDefaults.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Animations/Animations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ImageUIGestureRecognizer/ImageUIGestureRecognizer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIGestureRecognizer/UIGestureRecognizer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UITabBarController/UITabBarController.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:UINavigationController/UINavigationController.xcodeproj">
    </FileRef>
    <FileRef
