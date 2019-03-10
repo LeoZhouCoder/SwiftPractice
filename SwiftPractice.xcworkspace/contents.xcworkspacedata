@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Swift.gitignore">
-   </FileRef>
-   <FileRef
       location = "group:SQLite/SQLite.xcodeproj">
    </FileRef>
    <FileRef
